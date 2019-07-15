@@ -1,4 +1,4 @@
-package com.mtecresults.mylapstcpserver.controller;
+package com.mtecresults.rmudpserver.controller;
 
 import org.apache.mina.core.service.IoService;
 import org.apache.mina.core.service.IoServiceListener;

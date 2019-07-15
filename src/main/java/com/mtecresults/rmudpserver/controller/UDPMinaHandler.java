@@ -1,25 +1,25 @@
-package com.mtecresults.mylapstcpserver.controller;
+package com.mtecresults.rmudpserver.controller;
 
-import com.mtecresults.mylapstcpserver.domain.Marker;
-import com.mtecresults.mylapstcpserver.domain.Passing;
+import com.mtecresults.rmudpserver.domain.Passing;
 import org.apache.mina.core.service.IoHandlerAdapter;
 import org.apache.mina.core.session.IoSession;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
-import java.util.List;
+import java.text.ParseException;
+import java.util.Collections;
+
 
 public class UDPMinaHandler extends IoHandlerAdapter {
 
     private static final Logger LOG = LoggerFactory.getLogger(UDPMinaHandler.class);
-    private static final String NEWLINE = "\r\n";
 
     private final ServerDataHandler handler;
 
     public UDPMinaHandler(ServerDataHandler handler){
         super();
         this.handler = handler;
-        LOG.debug("New TCPMinaHandler starting up");
+        LOG.debug("New UDPMinaHandler starting up");
     }
 
     @Override
@@ -31,5 +31,13 @@ public class UDPMinaHandler extends IoHandlerAdapter {
     public void messageReceived( IoSession session, Object message ) throws Exception {
         String line = message.toString();
         LOG.trace("Message received: "+line);
+
+        try{
+            Passing p = Passing.fromJsonString(line);
+            handler.handlePassings(Collections.singleton(p));
+        }
+        catch(ParseException pe){
+            LOG.error("Unable to parse passing data: "+line, pe);
+        }
     }
 }

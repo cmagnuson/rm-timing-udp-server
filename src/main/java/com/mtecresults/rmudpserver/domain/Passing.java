@@ -1,15 +1,11 @@
-package com.mtecresults.mylapstcpserver.domain;
+package com.mtecresults.rmudpserver.domain;
 
-import com.mtecresults.mylapstcpserver.controller.ParseUtils;
-import com.mtecresults.mylapstcpserver.controller.TCPMinaHandler;
 import lombok.Data;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
 import java.text.ParseException;
-import java.util.ArrayList;
-import java.util.HashMap;
-import java.util.List;
+
 
 @Data
 public class Passing {
@@ -19,4 +15,8 @@ public class Passing {
     final String chipcode;
     final String locationName;
 
+    public static Passing fromJsonString(String jsonData) throws ParseException {
+        //TODO: implement and flesh out test cases
+        return null;
+    }
 }

@@ -12,7 +12,7 @@ public class SampleServerHandler extends ServerDataHandler {
 
     public static void main(String args[]) throws Exception {
         LOG.info("Sample server startup");
-        new MyLapsTCPServer(new SampleServerHandler());
+        new RmUdpServer(new SampleServerHandler());
     }
 
     @Override
@@ -24,14 +24,10 @@ public class SampleServerHandler extends ServerDataHandler {
     }
 
     @Override
-    public String getServerName() {
-        return "SampleServer";
+    public int getServerPort() {
+        return 11000;
     }
 
-    @Override
-    public int getServerPort() {
-        return 3097;
-    }
 }
 ```
 
