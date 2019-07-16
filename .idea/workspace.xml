@@ -4,6 +4,11 @@
     <list default="true" id="e990f872-dcae-4805-8b6d-6980131c739b" name="Default Changelist" comment="" />
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/.gradle/" />
+    <ignored path="$PROJECT_DIR$/build/classes/" />
+    <ignored path="$PROJECT_DIR$/build/jacoco/" />
+    <ignored path="$PROJECT_DIR$/build/reports/" />
+    <ignored path="$PROJECT_DIR$/build/test-results/" />
+    <ignored path="$PROJECT_DIR$/build/tmp/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -21,86 +26,10 @@
   <component name="FileEditorManager">
     <leaf>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/README.md">
-          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-            <state split_layout="SPLIT">
-              <first_editor relative-caret-position="255">
-                <caret line="17" column="13" lean-forward="true" selection-start-line="17" selection-start-column="13" selection-end-line="17" selection-end-column="13" />
-              </first_editor>
-              <second_editor />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/mtecresults/rmudpserver/SampleServerHandler.java">
+        <entry file="file://$PROJECT_DIR$/settings.gradle">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="150">
-              <caret line="10" selection-start-line="10" selection-end-line="32" selection-end-column="1" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/mtecresults/rmudpserver/controller/RmUdpServer.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="550">
-              <caret line="37" column="5" selection-start-line="37" selection-start-column="5" selection-end-line="37" selection-end-column="5" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/java/com/mtecresults/rmudpserver/domain/PassingTest.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="120">
-              <caret line="14" column="30" selection-start-line="14" selection-start-column="30" selection-end-line="14" selection-end-column="30" />
-              <folding>
-                <element signature="e#255#256#0" expanded="true" />
-                <element signature="e#276#277#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/java/com/mtecresults/rmudpserver/controller/UDPMinaHandlerTest.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="510">
-              <caret line="36" lean-forward="true" selection-start-line="36" selection-end-line="36" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/mtecresults/rmudpserver/domain/Passing.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="285">
-              <caret line="19" column="20" selection-start-line="19" selection-start-column="20" selection-end-line="19" selection-end-column="20" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/mtecresults/rmudpserver/controller/UDPMinaHandler.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="180">
-              <caret line="12" column="54" selection-start-line="12" selection-start-column="54" selection-end-line="12" selection-end-column="54" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
+            <state>
+              <caret column="40" selection-start-column="40" selection-end-column="40" />
             </state>
           </provider>
         </entry>
@@ -126,13 +55,15 @@
         <option value="$PROJECT_DIR$/src/main/java/com/mtecresults/rmudpserver/controller/SessionTrackingListener.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/mtecresults/rmudpserver/SampleServerHandler.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/mtecresults/rmudpserver/controller/ServerDataHandler.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/mtecresults/rmudpserver/controller/RmUdpServer.java" />
-        <option value="$PROJECT_DIR$/src/test/java/com/mtecresults/rmudpserver/domain/PassingTest.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/mtecresults/rmudpserver/domain/Passing.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/mtecresults/rmudpserver/controller/UDPMinaHandler.java" />
         <option value="$PROJECT_DIR$/src/test/java/com/mtecresults/rmudpserver/controller/TCPMinaHandlerTest.java" />
+        <option value="$PROJECT_DIR$/build.gradle" />
+        <option value="$PROJECT_DIR$/src/main/java/com/mtecresults/rmudpserver/domain/Passing.java" />
+        <option value="$PROJECT_DIR$/src/test/java/com/mtecresults/rmudpserver/domain/PassingTest.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/mtecresults/rmudpserver/controller/UDPMinaHandler.java" />
         <option value="$PROJECT_DIR$/src/test/java/com/mtecresults/rmudpserver/controller/UDPMinaHandlerTest.java" />
         <option value="$PROJECT_DIR$/README.md" />
+        <option value="$PROJECT_DIR$/src/main/java/com/mtecresults/rmudpserver/controller/RmUdpServer.java" />
+        <option value="$PROJECT_DIR$/settings.gradle" />
       </list>
     </option>
   </component>
@@ -153,91 +84,8 @@
         <subPane>
           <expand>
             <path>
-              <item name="rm-timing-udp-server" type="b2602c69:ProjectViewProjectNode" />
+              <item name="mylapstcpserver" type="b2602c69:ProjectViewProjectNode" />
               <item name="rm-timing-udp-server" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-            </path>
-            <path>
-              <item name="rm-timing-udp-server" type="b2602c69:ProjectViewProjectNode" />
-              <item name="rm-timing-udp-server" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="rm-timing-udp-server" type="b2602c69:ProjectViewProjectNode" />
-              <item name="rm-timing-udp-server" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-            </path>
-            <path>
-              <item name="rm-timing-udp-server" type="b2602c69:ProjectViewProjectNode" />
-              <item name="rm-timing-udp-server" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="rm-timing-udp-server" type="b2602c69:ProjectViewProjectNode" />
-              <item name="rm-timing-udp-server" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="rmudpserver" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="rm-timing-udp-server" type="b2602c69:ProjectViewProjectNode" />
-              <item name="rm-timing-udp-server" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="rmudpserver" type="462c0819:PsiDirectoryNode" />
-              <item name="controller" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="rm-timing-udp-server" type="b2602c69:ProjectViewProjectNode" />
-              <item name="rm-timing-udp-server" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="rmudpserver" type="462c0819:PsiDirectoryNode" />
-              <item name="domain" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="rm-timing-udp-server" type="b2602c69:ProjectViewProjectNode" />
-              <item name="rm-timing-udp-server" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-            </path>
-            <path>
-              <item name="rm-timing-udp-server" type="b2602c69:ProjectViewProjectNode" />
-              <item name="rm-timing-udp-server" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="rm-timing-udp-server" type="b2602c69:ProjectViewProjectNode" />
-              <item name="rm-timing-udp-server" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="rmudpserver" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="rm-timing-udp-server" type="b2602c69:ProjectViewProjectNode" />
-              <item name="rm-timing-udp-server" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="rmudpserver" type="462c0819:PsiDirectoryNode" />
-              <item name="controller" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="rm-timing-udp-server" type="b2602c69:ProjectViewProjectNode" />
-              <item name="rm-timing-udp-server" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="rmudpserver" type="462c0819:PsiDirectoryNode" />
-              <item name="domain" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -255,7 +103,7 @@
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.19885057" />
-    <property name="settings.editor.selected.configurable" value="AndroidSdkUpdater" />
+    <property name="settings.editor.selected.configurable" value="reference.projectsettings.compiler.annotationProcessors" />
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -269,9 +117,32 @@
       </list>
     </option>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="JUnit.All in mylapstcpserver.test">
+    <configuration name="SampleServerHandler" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.mtecresults.rmudpserver.SampleServerHandler" />
+      <module name="mylapstcpserver.main" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.mtecresults.rmudpserver.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration default="true" type="Application" factoryName="Application">
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="All in mylapstcpserver.test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="mylapstcpserver.test" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="TEST_OBJECT" value="package" />
+      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -292,6 +163,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JUnit.All in mylapstcpserver.test" />
+        <item itemvalue="Application.SampleServerHandler" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="SvnConfiguration">
     <configuration />
@@ -303,12 +180,41 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1563225303806</updated>
-      <workItem from="1563225306591" duration="1608000" />
+      <workItem from="1563225306591" duration="8509000" />
     </task>
     <servers />
   </component>
+  <component name="TestHistory">
+    <history-entry file="All_in_mylapstcpserver_test - 2019.07.16 at 13h 08m 14s.xml">
+      <configuration name="All in mylapstcpserver.test" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="All_in_mylapstcpserver_test - 2019.07.16 at 13h 10m 15s.xml">
+      <configuration name="All in mylapstcpserver.test" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="All_in_mylapstcpserver_test - 2019.07.16 at 13h 10m 30s.xml">
+      <configuration name="All in mylapstcpserver.test" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="All_in_mylapstcpserver_test - 2019.07.16 at 13h 11m 04s.xml">
+      <configuration name="All in mylapstcpserver.test" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="All_in_mylapstcpserver_test - 2019.07.16 at 13h 11m 33s.xml">
+      <configuration name="All in mylapstcpserver.test" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="All_in_mylapstcpserver_test - 2019.07.16 at 13h 12m 19s.xml">
+      <configuration name="All in mylapstcpserver.test" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="All_in_mylapstcpserver_test - 2019.07.16 at 13h 12m 55s.xml">
+      <configuration name="All in mylapstcpserver.test" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="All_in_mylapstcpserver_test - 2019.07.16 at 13h 13m 17s.xml">
+      <configuration name="All in mylapstcpserver.test" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="All_in_mylapstcpserver_test - 2019.07.16 at 13h 13m 41s.xml">
+      <configuration name="All in mylapstcpserver.test" configurationId="JUnit" />
+    </history-entry>
+  </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="1608000" />
+    <option name="totallyTimeSpent" value="8509000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="37" y="30" width="2515" height="1366" extended-state="0" />
@@ -322,7 +228,7 @@
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.24989891" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="bottom" id="Build" weight="0.32967034" />
-      <window_info anchor="bottom" id="Terminal" visible="true" weight="0.32967034" />
+      <window_info anchor="bottom" id="Terminal" weight="0.32967034" />
       <window_info anchor="bottom" id="Docker" show_stripe_button="false" />
       <window_info anchor="bottom" id="Event Log" side_tool="true" />
       <window_info anchor="bottom" id="Messages" weight="0.32967034" />
@@ -330,7 +236,7 @@
       <window_info anchor="bottom" id="Version Control" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32967034" />
-      <window_info anchor="bottom" id="Run" order="2" />
+      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.32967034" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -351,13 +257,6 @@
     <option name="version" value="1" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/build.gradle">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="294">
-          <caret line="83" column="26" lean-forward="true" selection-start-line="83" selection-start-column="26" selection-end-line="83" selection-end-column="26" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/mtecresults/rmudpserver/controller/MyLapsTCPServer.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="225">
@@ -393,6 +292,17 @@
         </state>
       </provider>
     </entry>
+    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_131.jdk/Contents/Home/src.zip!/java/net/InetSocketAddress.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="439">
+          <caret line="164" column="11" selection-start-line="164" selection-start-column="11" selection-end-line="164" selection-end-column="11" />
+          <folding>
+            <element signature="e#4750#4751#0" expanded="true" />
+            <element signature="e#4807#4808#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/mtecresults/rmudpserver/controller/ServerDataHandler.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="180">
@@ -403,58 +313,98 @@
         </state>
       </provider>
     </entry>
+    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.apache.mina/mina-core/2.0.19/a070a03134f7c4f5c9ad79b094423d48f3e9551b/mina-core-2.0.19-sources.jar!/org/apache/mina/filter/codec/serialization/ObjectSerializationCodecFactory.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="450">
+          <caret line="54" column="62" lean-forward="true" selection-start-line="54" selection-start-column="62" selection-end-line="54" selection-end-column="62" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.apache.mina/mina-core/2.0.19/a070a03134f7c4f5c9ad79b094423d48f3e9551b/mina-core-2.0.19-sources.jar!/org/apache/mina/filter/codec/textline/LineDelimiter.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="461">
+          <caret line="64" column="38" selection-start-line="64" selection-start-column="38" selection-end-line="64" selection-end-column="38" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.apache.mina/mina-core/2.0.19/a070a03134f7c4f5c9ad79b094423d48f3e9551b/mina-core-2.0.19-sources.jar!/org/apache/mina/filter/logging/LoggingFilter.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-3186">
+          <caret line="74" column="11" selection-start-line="74" selection-start-column="11" selection-end-line="74" selection-end-column="11" />
+          <folding>
+            <element signature="e#2978#2979#0" expanded="true" />
+            <element signature="e#3029#3030#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.apache.mina/mina-core/2.0.19/a070a03134f7c4f5c9ad79b094423d48f3e9551b/mina-core-2.0.19-sources.jar!/org/apache/mina/filter/codec/ProtocolCodecFilter.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="275">
+          <caret line="74" column="11" selection-start-line="74" selection-start-column="11" selection-end-line="74" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.apache.mina/mina-core/2.0.19/a070a03134f7c4f5c9ad79b094423d48f3e9551b/mina-core-2.0.19-sources.jar!/org/apache/mina/filter/codec/prefixedstring/PrefixedStringCodecFactory.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="585">
+          <caret line="65" column="6" lean-forward="true" selection-start-line="65" selection-start-column="6" selection-end-line="65" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.apache.mina/mina-core/2.0.19/a070a03134f7c4f5c9ad79b094423d48f3e9551b/mina-core-2.0.19-sources.jar!/org/apache/mina/filter/codec/demux/DemuxingProtocolCodecFactory.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="225">
+          <caret line="36" column="59" lean-forward="true" selection-start-line="36" selection-start-column="59" selection-end-line="36" selection-end-column="59" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.apache.mina/mina-core/2.0.19/a070a03134f7c4f5c9ad79b094423d48f3e9551b/mina-core-2.0.19-sources.jar!/org/apache/mina/filter/codec/CumulativeProtocolDecoder.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="565">
+          <caret line="87" column="24" lean-forward="true" selection-start-line="48" selection-start-column="8" selection-end-line="87" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.apache.mina/mina-core/2.0.19/a070a03134f7c4f5c9ad79b094423d48f3e9551b/mina-core-2.0.19-sources.jar!/org/apache/mina/filter/codec/ProtocolDecoder.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="275">
+          <caret line="39" column="19" selection-start-line="39" selection-start-column="19" selection-end-line="39" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.apache.mina/mina-core/2.0.19/a070a03134f7c4f5c9ad79b094423d48f3e9551b/mina-core-2.0.19-sources.jar!/org/apache/mina/filter/codec/statemachine/DecodingStateProtocolDecoder.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="225">
+          <caret line="39" column="62" lean-forward="true" selection-start-line="39" selection-start-column="62" selection-end-line="39" selection-end-column="62" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.apache.mina/mina-core/2.0.19/a070a03134f7c4f5c9ad79b094423d48f3e9551b/mina-core-2.0.19-sources.jar!/org/apache/mina/filter/codec/textline/TextLineDecoder.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="41" column="45" lean-forward="true" selection-start-line="41" selection-start-column="45" selection-end-line="41" selection-end-column="45" />
+        </state>
+      </provider>
+    </entry>
     <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.apache.mina/mina-core/2.0.19/a070a03134f7c4f5c9ad79b094423d48f3e9551b/mina-core-2.0.19-sources.jar!/org/apache/mina/filter/codec/textline/TextLineCodecFactory.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="396">
-          <caret line="58" column="67" lean-forward="true" selection-start-line="58" selection-start-column="67" selection-end-line="58" selection-end-column="67" />
+        <state relative-caret-position="240">
+          <caret line="40" column="25" selection-start-line="40" selection-start-column="25" selection-end-line="40" selection-end-column="25" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/mtecresults/rmudpserver/controller/RmUdpServer.java">
+    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.google.code.gson/gson/2.8.5/c5b4c491aecb72e7c32a78da0b5c6b9cda8dee0f/gson-2.8.5-sources.jar!/com/google/gson/Gson.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="550">
-          <caret line="37" column="5" selection-start-line="37" selection-start-column="5" selection-end-line="37" selection-end-column="5" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/com/mtecresults/rmudpserver/domain/PassingTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="14" column="30" selection-start-line="14" selection-start-column="30" selection-end-line="14" selection-end-column="30" />
-          <folding>
-            <element signature="e#255#256#0" expanded="true" />
-            <element signature="e#276#277#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/mtecresults/rmudpserver/controller/UDPMinaHandler.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="12" column="54" selection-start-line="12" selection-start-column="54" selection-end-line="12" selection-end-column="54" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+        <state relative-caret-position="275">
+          <caret line="811" column="83" selection-start-line="811" selection-start-column="63" selection-end-line="811" selection-end-column="83" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/mtecresults/rmudpserver/domain/Passing.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="285">
-          <caret line="19" column="20" selection-start-line="19" selection-start-column="20" selection-end-line="19" selection-end-column="20" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/com/mtecresults/rmudpserver/controller/UDPMinaHandlerTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="510">
-          <caret line="36" lean-forward="true" selection-start-line="36" selection-end-line="36" />
+        <state relative-caret-position="345">
+          <caret line="23" column="31" selection-start-line="23" selection-start-column="8" selection-end-line="23" selection-end-column="31" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -463,21 +413,81 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/mtecresults/rmudpserver/SampleServerHandler.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="10" selection-start-line="10" selection-end-line="32" selection-end-column="1" />
+        <state relative-caret-position="420">
+          <caret line="29" column="19" selection-start-line="29" selection-start-column="19" selection-end-line="29" selection-end-column="19" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/gradlew.bat">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
     <entry file="file://$PROJECT_DIR$/README.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
-          <first_editor relative-caret-position="255">
-            <caret line="17" column="13" lean-forward="true" selection-start-line="17" selection-start-column="13" selection-end-line="17" selection-end-column="13" />
+          <first_editor relative-caret-position="105">
+            <caret line="7" column="27" lean-forward="true" selection-start-line="7" selection-start-column="27" selection-end-line="7" selection-end-column="27" />
           </first_editor>
           <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/mtecresults/rmudpserver/controller/UDPMinaHandlerTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="225">
+          <caret line="15" column="40" selection-start-line="15" selection-start-column="40" selection-end-line="15" selection-end-column="40" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#1143#1144#0" expanded="true" />
+            <element signature="e#1186#1187#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/mtecresults/rmudpserver/domain/PassingTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="15" column="1086" selection-start-line="15" selection-start-column="55" selection-end-line="15" selection-end-column="1086" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/mtecresults/rmudpserver/controller/UDPMinaHandler.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="480">
+          <caret line="32" column="47" lean-forward="true" selection-start-line="32" selection-start-column="47" selection-end-line="32" selection-end-column="47" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/mtecresults/rmudpserver/controller/RmUdpServer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="555">
+          <caret line="37" column="161" selection-start-line="37" selection-start-column="161" selection-end-line="37" selection-end-column="161" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#1975#1976#0" expanded="true" />
+            <element signature="e#2005#2006#0" expanded="true" />
+            <element signature="e#2054#2055#0" expanded="true" />
+            <element signature="e#2120#2121#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/build.gradle">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="12" column="5" lean-forward="true" selection-start-line="12" selection-start-column="5" selection-end-line="12" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/settings.gradle">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="40" selection-start-column="40" selection-end-column="40" />
         </state>
       </provider>
     </entry>

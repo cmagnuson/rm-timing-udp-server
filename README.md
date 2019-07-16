@@ -5,6 +5,8 @@
 
 Java UDP server for handling rmtiming data feed.  Just override ServerDataHandler and create a new RMTimingUdpServer with that handler.
 
+**Note that the reading of records in Mina is a hack** - it will fail for any record containing a `]` in it's data.  This is good enough for my purposes, but for a robust solution you should implement a proper Mina Decoder, or just read Datagrams yourself.  The RM packets do not end in a newline, and Mina doesn't have a simple method to Decode a single full UDP packet without fixed length of delimiter.
+
 ```
 public class SampleServerHandler extends ServerDataHandler {
 

@@ -6,6 +6,7 @@ import org.junit.Before;
 import org.junit.Test;
 
 
+import java.util.ArrayList;
 import java.util.Collection;
 
 import static org.junit.Assert.*;
@@ -18,21 +19,20 @@ public class UDPMinaHandlerTest extends ServerDataHandler {
 
     @Before
     public void setUp() throws Exception {
-        passingsReceived = null;
+        passingsReceived = new ArrayList<>();
         handler = new UDPMinaHandler(this);
     }
 
     @Test
     public void messageReceived() throws Exception {
-        fail("Implement me for RM systems");
-//        handler.messageReceived(new DummySession(), "Finish@Marker@t=2017-10-25 11:03:40.347|mt=gun|n=Gunshot 1@4@$\n");
-//        handler.messageReceived(new DummySession(), "10KM@Passing@t=13:11:30.904|c=0000041|ct=UH|d=120606|l=13|dv=4|re=0|an=00001111|g=0|b=41|n=41@t=13:12:21.830|c=0000039|ct=UH|d=120606|l=30|dv=4|re=0|an=00001101|g=0|b=39|n=39@ 1016@$");
-//        assertEquals(2, passingsReceived.size());
+        handler.messageReceived(new DummySession(), "[{\"mode\":2,\"comingFromLocationName\":\"\",\"BIBNumber\":9891,\"eventId\":0,\"dt\":\"2019-07-16T13:04:22.909618-05:00\",\"dtString\":\"\",\"antennaPortNo\":\"M\",\"readerIdentity\":\"R\",\"PeakRSSIInDBM\":\"M\",\"TCPPacketNo\":0,\"UDPPacketNo\":78,\"rowData\":{\"BIB\":\"9898\",\"GunStart\":\"00:00:00.000\",\"ChipStart\":\"00:00:00.000\",\"Split1\":\"00:00:00.000\",\"Split2\":\"00:00:00.000\",\"Split3\":\"00:00:00.000\",\"Split4\":\"00:00:00.000\",\"Split5\":\"00:00:00.000\",\"Split6\":\"00:00:00.000\",\"Split7\":\"00:00:00.000\",\"Split8\":\"00:00:00.000\",\"Split9\":\"00:00:00.000\",\"Split10\":\"00:00:00.000\",\"Penalty\":\"00:00:00.000\",\"FinishTime\":\"13:04:22.909\",\"GunElapsed\":\"00:00:00.000\",\"ChipElapsed\":\"00:00:00.000\",\"Age\":\"0\",\"Modified\":\"07/16/2019 13:04:22.909\",\"Split11\":\"00:00:00.000\",\"Split12\":\"00:00:00.000\",\"Split13\":\"00:00:00.000\",\"Split14\":\"00:00:00.000\",\"Split15\":\"00:00:00.000\"},\"deleteRow\":false,\"isSameDayRegistration\":false,\"LapNo\":0,\"note\":null}");
+        handler.messageReceived(new DummySession(), "[{\"mode\":2,\"comingFromLocationName\":\"\",\"BIBNumber\":9898,\"eventId\":0,\"dt\":\"2019-07-16T13:04:22.909618-05:00\",\"dtString\":\"\",\"antennaPortNo\":\"M\",\"readerIdentity\":\"R\",\"PeakRSSIInDBM\":\"M\",\"TCPPacketNo\":0,\"UDPPacketNo\":78,\"rowData\":{\"BIB\":\"9898\",\"GunStart\":\"00:00:00.000\",\"ChipStart\":\"00:00:00.000\",\"Split1\":\"00:00:00.000\",\"Split2\":\"00:00:00.000\",\"Split3\":\"00:00:00.000\",\"Split4\":\"00:00:00.000\",\"Split5\":\"00:00:00.000\",\"Split6\":\"00:00:00.000\",\"Split7\":\"00:00:00.000\",\"Split8\":\"00:00:00.000\",\"Split9\":\"00:00:00.000\",\"Split10\":\"00:00:00.000\",\"Penalty\":\"00:00:00.000\",\"FinishTime\":\"13:04:22.909\",\"GunElapsed\":\"00:00:00.000\",\"ChipElapsed\":\"00:00:00.000\",\"Age\":\"0\",\"Modified\":\"07/16/2019 13:04:22.909\",\"Split11\":\"00:00:00.000\",\"Split12\":\"00:00:00.000\",\"Split13\":\"00:00:00.000\",\"Split14\":\"00:00:00.000\",\"Split15\":\"00:00:00.000\"},\"deleteRow\":false,\"isSameDayRegistration\":false,\"LapNo\":0,\"note\":null}");
+        assertEquals(2, passingsReceived.size());
     }
 
     @Override
     public void handlePassings(Collection<Passing> passings) {
-        passingsReceived = passings;
+        passingsReceived.addAll(passings);
     }
 
     @Override
